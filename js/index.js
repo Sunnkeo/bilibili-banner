@@ -43,5 +43,6 @@ $(function () {
         // bn_image2.children[0].style.transform = 'translate(' + moveX / 360 + 'px, 0px)';
         // bg3
         changeBlur(bn_image3, 1, 1000, 3);
+        // bg4
     })
 })
