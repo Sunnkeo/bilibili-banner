@@ -53,10 +53,12 @@ $(function () {
         // bn_image2.children[0].style.transform = 'translate(' + moveX / 360 + 'px, 0px)';
         // bg3
         changeBlur(bn_image3, 1, 1000, 3, 365);
-        changeTranslate(bn_image3, 200)
+        changeTranslate(bn_image3, 100)
         // bg4
         changeBlur(bn_image4, 4, 200, 2, 800);
+        changeTranslate(bn_image4, 40);
         // bg5
-        
+        changeBlur(bn_image5, 5, 100, 2, 1000);
+        changeTranslate(bn_image5, 30);
     })
 })
