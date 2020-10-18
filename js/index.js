@@ -49,16 +49,19 @@ $(function () {
         // bn_image1.children[0].style.filter = 'blur('+ (4 + abs_moveX / 500) + 'px)';
         // bg2
         changeBlur(bn_image2, 0, 200);
-        changeTranslate(bn_image2, 360);
+        changeTranslate(bn_image2, 100);
         // bn_image2.children[0].style.transform = 'translate(' + moveX / 360 + 'px, 0px)';
         // bg3
         changeBlur(bn_image3, 1, 1000, 3, 365);
-        changeTranslate(bn_image3, 100)
+        changeTranslate(bn_image3, 45)
         // bg4
         changeBlur(bn_image4, 4, 200, 2, 800);
         changeTranslate(bn_image4, 40);
         // bg5
         changeBlur(bn_image5, 5, 100, 2, 1000);
         changeTranslate(bn_image5, 30);
+        //bg6
+        changeBlur(bn_image6, 6, 70, 2, 1200);
+        changeTranslate(bn_image6, 25);
     })
 })
