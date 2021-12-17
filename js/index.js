@@ -64,4 +64,5 @@ $(function () {
         changeBlur(bn_image6, 6, 70, 2, 1200);
         changeTranslate(bn_image6, 25);
     })
+    console.log('测试git多账号')
 })
